@@ -1,0 +1,14 @@
+heartbeat.monitors:
+- name: "HDB - MyDoc@HDB (HTTP)"
+  id: "hdb-mydoc-http"
+  type: http
+  enabled: true
+  schedule: '@every 240m'
+  urls: "https://services2.hdb.gov.sg/webapp/BE01AWMyDoc/BE01SMyDoc"
+
+- name: "ICA - Apply for Travel Document (HTTP)"
+  id: "ica-apply-travel-document-http"
+  type: http
+  enabled: true
+  schedule: '@every 240m'
+  urls: "https://eservices.ica.gov.sg/esvclandingpage/apples"

@@ -1,0 +1,25 @@
+{
+  "name": "digitalgov",
+  "version": "1.0.0",
+  "description": "digitalgov monitor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "npx @elastic/synthetics push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiehonglim/digitalgov.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jiehonglim/digitalgov/issues"
+  },
+  "homepage": "https://github.com/jiehonglim/digitalgov#readme",
+  "dependencies": {
+    "@elastic/synthetics": "^1.20.0"
+  }
+}
