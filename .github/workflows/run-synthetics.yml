@@ -10,7 +10,7 @@ jobs:
   test:
     defaults:
       run:
-        working-directory: ./advanced-examples
+        working-directory: ./
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
