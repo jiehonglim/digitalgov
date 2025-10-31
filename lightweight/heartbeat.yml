@@ -12,3 +12,52 @@ heartbeat.monitors:
   enabled: true
   schedule: '@every 240m'
   urls: "https://eservices.ica.gov.sg/esvclandingpage/apples"
+
+- name: "LTA - Road Tax Portal (HTTP)"
+  id: "lta-roadtax-http"
+  type: http
+  enabled: true
+  schedule: '@every 240m'
+  urls: "https://vrl.lta.gov.sg/lta/vrl/action/pubfunc?ID=RoadTaxEnquiry"
+
+- name: "IRAS - MyTax Portal (HTTP)"
+  id: "iras-mytax-http"
+  type: http
+  enabled: true
+  schedule: '@every 240m'
+  urls: "https://mytax.iras.gov.sg/login/selection"
+
+- name: "CPF - Members Services (HTTP)"
+  id: "cpf-membersservices-http"
+  type: http
+  enabled: true
+  schedule: '@every 240m'
+  urls: "https://www.cpf.gov.sg/member/ds/"
+
+- name: "SSG - SkillsFuture - E-Services (HTTP)"
+  id: "ssg-eservices-http"
+  type: http
+  enabled: true
+  schedule: '@every 240m'
+  urls: "https://www.myskillsfuture.gov.sg/content/portal/en/e-services/e-services.html"
+
+- name: "MINDEF - NS Portal (HTTP)"
+  id: "mindef-ns-login-http"
+  type: http
+  enabled: true
+  schedule: '@every 240m'
+  urls: "https://www.ns.gov.sg/web/login"
+
+- name: "MOH - Healthhub Appt (HTTP)"
+  id: "mon-healthhub-appt-http"
+  type: http
+  enabled: true
+  schedule: '@every 240m'
+  urls: "https://eservices.healthhub.sg/appointments"
+
+- name: "ROM - Marriage Application (HTTP)"
+  id: "rom-marriage-http"
+  type: http
+  enabled: true
+  schedule: '@every 240m'
+  urls: "https://www.marriage.gov.sg/civil/marriage-process"
