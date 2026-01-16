@@ -61,3 +61,10 @@ heartbeat.monitors:
   enabled: true
   schedule: '@every 240m'
   urls: "https://www.marriage.gov.sg/civil/marriage-process"
+
+- name: "NEA - Weather Forecast (HTTP)"
+  id: "nea-weather-forecast-http"
+  type: http
+  enabled: true
+  schedule: '@every 240m'
+  urls: "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
